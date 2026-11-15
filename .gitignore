@@ -1,0 +1,14 @@
+# Arquivo com credenciais reais do banco de dados
+conexao.php
+
+# Arquivos de ambiente e configurações privadas
+.env
+.env.*
+
+# Dependências e arquivos temporários
+vendor/
+*.log
+*.tmp
+
+# Configurações locais do editor
+.vscode/
