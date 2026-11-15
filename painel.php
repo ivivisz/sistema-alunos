@@ -65,7 +65,13 @@ $total_turmas = $dados["turmas"];
 <main class="page-shell">
     <!-- Cabeçalho com a identificação do sistema e os links principais. -->
 <header class="topbar">
-        <div class="brand"><div class="brand-mark">✦</div><div>EduGestão<small>Sistema de Gerenciamento de Alunos</small></div></div>
+        <div class="brand">
+    <img src="assets/logo.png" alt="Logo do EduGestão" class="logo">
+    <div>
+        EduGestão
+        <small>Sistema de Gerenciamento de Alunos</small>
+    </div>
+</div>
         <nav class="topbar-actions"><a href="sair.php">Sair do sistema</a></nav>
     </header>
     <!-- Área de boas-vindas personalizada com o nome do usuário. -->

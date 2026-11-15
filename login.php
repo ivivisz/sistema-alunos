@@ -45,7 +45,15 @@ $_SESSION["usuario_pendente"] = $id;
 </head>
 <body>
 <main class="auth-shell">
-    <div class="auth-brand"><div class="brand"><div class="brand-mark">✦</div><div>EduGestão<small>Sistema de Gerenciamento de Alunos</small></div></div></div>
+    <div class="auth-brand">
+    <div class="brand">
+        <img src="assets/logo.png" alt="Logo do EduGestão" class="logo">
+        <div>
+            EduGestão
+            <small>Sistema de Gerenciamento de Alunos</small>
+        </div>
+    </div>
+</div>
     <section class="auth-card">
         <h1>Bem-vindo de volta</h1>
         <p class="subtitle">Entre com seus dados para acessar o sistema.</p>
