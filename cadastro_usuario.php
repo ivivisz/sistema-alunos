@@ -64,7 +64,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             );
 
             $cadastro->bind_param("sss", $nome, $email, $senha_hash);
-            
 // Executa o cadastro no banco de dados.
 try {
 
@@ -111,7 +110,7 @@ try {
     <!-- Identificação visual do sistema. -->
     <div class="auth-brand">
         <div class="brand">
-            <div class="brand-mark">✦</div>
+            <img src="assets/logo.png" alt="Logo do EduGestão" class="logo">
             <div>
                 EduGestão
                 <small>Sistema de Gerenciamento de Alunos</small>
