@@ -48,6 +48,10 @@ $total = $resultado->num_rows;
 
     <!-- Importa o CSS principal do sistema. -->
     <link rel="stylesheet" href="estilo.css">
+
+    <!-- Ícone da aba do navegador. -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+
 </head>
 
 <body>
