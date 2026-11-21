@@ -42,6 +42,10 @@ $_SESSION["usuario_pendente"] = $id;
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Entrar | EduGestão</title><link rel="stylesheet" href="estilo.css">
+
+<!-- Ícone da aba do navegador. -->
+<link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+
 </head>
 <body>
 <main class="auth-shell">

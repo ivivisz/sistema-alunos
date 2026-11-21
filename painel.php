@@ -55,13 +55,21 @@ $total_turmas = $dados["turmas"];
 <!-- Interface do painel inicial do EduGestão. -->
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Painel | Sistema de Alunos</title>
-<link rel="stylesheet" href="estilo.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Painel | Sistema de Alunos</title>
+
+    <link rel="stylesheet" href="estilo.css">
+
+    <!-- Ícone da aba do navegador. -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
 </head>
+
 <body>
+
 <main class="page-shell">
     <!-- Cabeçalho com a identificação do sistema e os links principais. -->
 <header class="topbar">
